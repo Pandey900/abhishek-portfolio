@@ -1,0 +1,282 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personal Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/988fb450d8.js" crossorigin="anonymous"></script>
+</head>
+<body>
+   <div id="header">
+    <div class="container">
+        <nav>
+            <img src="logo2.png" class="logo">
+        <ul id="sidemenu">
+            <li><a href="#header">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#services">Services</a></li>
+            <li><a href="#portfolio">Portfolio</a></li>
+            <li><a href="#contact">Contact</a></li>
+            <i class="fa-solid fa-circle-xmark" onclick="closemenu()"></i>
+        </ul>
+        <i class="fa-solid fa-bars" onclick="openmenu()"></i>
+    </nav>
+    <div class="header-text">
+        <p>Software-Engineer-With-Specialisation in DevOps</p>
+        <h1>Hello, This side<br><span>Abhishek </span>Pandey<br>From UttarPradesh, <br>India</h1>
+    </div>
+   </div>
+ </div>
+
+ <!-- About -->
+ <div id="about">
+    <div class="container">
+        <div class="row">
+            <div class="about-col-1">
+                <img src="image.png">
+            </div>
+            <div class="about-col-2">
+                <h1 class="sub-title">About Me</h1>
+                <p>I want to secure a career in a high-level professional environment where I can utilize my skills and studies background to 
+                    the maximum. I am very positive about my work, I can do hard work and smart work according to the situation at that point in time. 
+                    I will make sure always to improvise the
+                    situation whenever it is required.</p>
+
+                    <div class="tab-titles">
+                        <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                        <p class="tab-links" onclick="opentab('experience')">Experience</p>
+                        <p class="tab-links" onclick="opentab('education')">Education</p>
+                    </div>
+                    <div class="tab-contents active-tab" id="skills">
+                        <ul>
+                            <li><span>DSA-In Java</span><br>Completed till LinkedList<br> Furthure Ongoing</li>
+                            <li><span>DevOps</span><br>CI/CD</li>
+                            <li><span>Docker/AWS</span><br>Completed in Campus <br>Completed one minor project</li>
+                            <li><span>Web Development</span><br>Front End</li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="experience">
+                        <ul>
+                            <li><span>Minor Project</span><br>Deployment of An APK using <br>Static Website</li>
+                            <li><span>DevOps</span><br>CI/CD</li>
+                            <li><span>Docker/AWS</span><br>Completed in Campus <br>Completed one minor project</li>
+                            <li><span>Training And Intership At Intrainz</span><br>Done 2 Months <br>Training And Internship at <br>Intrainz in Cloud Computing</li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="education">
+                        <ul>
+                            <h1>10th MARKSHEET</h1>
+                            <br>
+                            <table>
+                                <tr>
+                                    <th>SUBJECTS</th>
+                                    <th>TOTAL</th>
+                                    <th>GRADE</th>
+                                </tr>
+                                <tr>
+                                    <td>ENGLISH</td>
+                                    <td>60</td>
+                                    <td>D1</td>
+                                </tr>
+                                <tr>
+                                    <td>HINDI</td>
+                                    <td>91</td>
+                                    <td>A2</td>
+                                </tr>
+                                <tr>
+                                    <td>MATHEMATICS</td>
+                                    <td>58</td>
+                                    <td>C1</td>
+                                </tr>
+                                <tr>
+                                    <td>SCIENCE</td>
+                                    <td>67</td>
+                                    <td>B1</td>
+                                </tr>
+                                <tr>
+                                    <td>SOCIAL SCIENCE</td>
+                                    <td>74</td>
+                                    <td>B1</td>
+                                </tr>
+                            </table>
+                            <hr>
+                            <h1>12th MARKSHEET</h1>
+                            <br>
+                            <table>
+                                <tr>
+                                    <th>SUBJECTS</th>
+                                    <th>TOTAL</th>
+                                    <th>GRADES</th>
+                                </tr>
+                                <tr>
+                                    <td>ENGLISH</td>
+                                    <td>75</td>
+                                    <td>C2</td>
+                                </tr>
+                                <tr>
+                                    <td>PHYSICS</td>
+                                    <td>64</td>
+                                    <td>C2</td>
+                                </tr>
+                                <tr>
+                                    <td>CHEMISTRY</td>
+                                    <td>61</td>
+                                    <td>D1</td>
+                                </tr>
+                                <tr>
+                                    <td>MATHEMATICS</td>
+                                    <td>48</td>
+                                    <td>D2</td>
+                                </tr>
+                                <tr>
+                                    <td>PHYSICAL<br>EDUCATION</td>
+                                    <td>92</td>
+                                    <td>A2</td>
+                                </tr>
+                            </table>
+                            <li><span>2021-2025</span><br>B.Tech(CSE) 3-Year<br>in DevOps-Specialisation from UPES University <br>situated in Dehradun Uttrakhand</li>
+                            <li><span>2020</span><br>12th from GRD WORLS SCHOOL <br>situated in Dehradun, Uttrakhand</li>
+                            <li><span>2018</span><br>10th from GRD WORLS SCHOOL <br>situated in Dehradun, Uttrakhand</li>
+                        </ul>
+                    </div>
+            </div>
+        </div>
+    </div>
+ </div>
+
+ <!-- Services -->
+ <div id="services">
+    <div class="container">
+        <h1 class="sub-title">My Services</h1>
+        <div class="services-list">
+            <div>
+                <i class="fa-solid fa-cloud"></i>
+                <h2>Cloud Coomputing</h2>
+                <p>Done training and Internship in Intrainz in Cloud <br>Computing</p>
+                <a href="#">learn more</a>
+            </div>
+            <div>
+                <i class="fa-solid fa-code"></i>
+                <h2>Web Development</h2>
+                <p>Done not any internship yet but know about it very much</p>
+                <a href="#">Learn more</a>
+            </div>
+        </div>
+    </div>
+ </div>
+
+ <!-- Portfolio -->
+ <div id="portfolio">
+    <div class="container">
+        <h1 class="sub-title">My Work</h1>
+        <div class="work-list">
+            <div class="work">
+                <img src="Industrial training certificate.jpg">
+                <div class="layer">
+                    <h3>Industrial Training</h3>
+                    <p>This is the Industrial Training which i had got from the 
+                        Intrainz by giving my best to the company.</p>
+                        <a href="#"><i class="fa-solid fa-certificate"></i></a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="Internship certificate.jpg">
+                <div class="layer">
+                    <h3>Internship Certificate</h3>
+                    <p>This is the Internship Certificate which i had got from the 
+                        Intrainz by giving my best to the company.
+                    </p>
+                    <a href="#"><i class="fa-solid fa-certificate"></i></a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="LOR.jpg">
+                <div class="layer">
+                    <h3>Letter Of Recommendation</h3>
+                    <p>This is Letter Of Recommendation Certificate which i had got from the 
+                        Intrainz by giving my best to the company.
+                    </p>
+                    <a href="#"><i class="fa-solid fa-certificate"></i></a>
+                </div>
+            </div>
+        </div>
+        <a href="#" class="btn">See more</a>
+    </div>
+ </div>
+
+ <!-- Contact -->
+ <div id="contact">
+    <div class="container">
+        <div class="row">
+            <div class="contact-left">
+                <h1 class="sub-title">Contact Me</h1>
+                <p><i class="fa-solid fa-paper-plane"></i> 8953abhishekpandey@gmail.com</p>
+                <p><i class="fa-solid fa-phone"></i>8953287580</p>
+                <div class="social-icons">
+                    <a href="#"><i class="fa-brands fa-facebook"></i></a>
+                    <a href="#"><i class="fa-brands fa-instagram"></i></a>
+                    <a href="#"><i class="fa-brands fa-linkedin"></i></a>
+                    <a href="https://github.com/Pandey900"><i class="fa-brands fa-github"></i></a>
+                </div>
+                <a href="RESUME(CV).pdf" download class="btn btn2">Download CV</a>
+            </div>
+            <div class="contact-right">
+                <form name="submit-to-google-sheet">
+                    <input type="text" name="Name" placeholder="Your Name" required>
+                    <input type="email" name="Email" placeholder="Your Email" required>
+                    <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+                    <button type="submit" class="btn btn2">Submit</button>
+                </form>
+                <span id="msg"></span>
+            </div>
+        </div>
+    </div>
+    <div class="copyright">
+        <p>Copyright @Abhishek. Made by Abhishek Pandey <i class="fa-solid fa-heart"></i></p>
+    </div>
+ </div>
+ <script>
+    var tablinks = document.getElementsByClassName("tab-links");
+    var tabcontents = document.getElementsByClassName("tab-contents");
+    function opentab(tabname){
+        for(tablink of tablinks){
+            tablink.classList.remove("active-link");
+        }
+        for(tabcontent of tabcontents){
+            tabcontent.classList.remove("active-tab");
+        }
+        event.currentTarget.classList.add("active-link");
+        document.getElementById(tabname).classList.add("active-tab");
+    }
+ </script>
+
+ <script>
+    var sidemenu = document.getElementById("sidemenu");
+    function openmenu(){
+        sidemenu.style.right="0";
+    }
+    function closemenu(){
+        sidemenu.style.right="-200px";
+    }
+ </script>
+ <script>
+    const scriptURL = 'https://script.google.com/macros/s/AKfycbyWo3qrknkNhT6b6o_f8SNVNw0al_CWrCUZSg78jQUlw5ZEKQmg3_o78HjHuKM23RTylQ/exec'
+    const form = document.forms['submit-to-google-sheet']
+    const msg=document.getElementById("msg")
+
+    form.addEventListener('submit', e => {
+      e.preventDefault()
+      fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+        .then(response => {
+            msg.innerHTML="Messgae Sent Successfully"
+            setTimeout(function(){
+                msg.innerHTML=""
+            },5000)
+            form.reset()
+        })
+        .catch(error => console.error('Error!', error.message))
+    })
+  </script>
+</body>
+</html>
